@@ -1012,13 +1012,13 @@
      * EDIT THESE LINKS *
      ********************/
     const LINKS = {
-      githubProfile: "https://github.com/your-username", // <-- replace
+      githubProfile: "https://github.com/trishitametya-hash", // <-- replace
       linkedin: "https://linkedin.com/in/your-profile",   // <-- replace (or remove)
-      project1Repo: "https://github.com/your-username/AI-ML-Workshop-2025", // <-- replace
-      project2Repo: "https://github.com/your-username/AI-ML-Workshop-2025", // <-- replace
+      project1Repo: "https://github.com/trishitametya-hash/AI-ML-Workshop-2025", // <-- replace
+      project2Repo: "https://github.com/trishitametya-hash/AI-ML-Workshop-2025", // <-- replace
       project1Notebook: "#", // <-- add Colab/GitHub notebook link
       project2Notebook: "#", // <-- add Colab/GitHub notebook link
-      email: "student@email.com" // <-- replace
+      email: "trishitametya@gemail.com" // <-- replace
     };
 
     // Apply links
@@ -1198,14 +1198,14 @@
     /********************
      * Quick personalization helpers (optional)
      ********************/
-    // Change "Student Name" quickly from query string: ?name=Rahul%20Das
-    // Change GitHub quickly: ?github=https://github.com/rahuldas
+    // Change "Trishita Metya" quickly from query string: ?name=rahul%20Metya
+    // Change GitHub quickly: ?github=https://github.com/rahul
     const params = new URLSearchParams(location.search);
-    const name = params.get("name");
+    const name = params.get("Trishita");
     const github = params.get("github");
-    if(name){
+    if(Trishita){
       document.querySelectorAll("h1 span").forEach(sp=>{
-        if(sp.textContent.trim() === "Student Name") sp.textContent = name;
+        if(sp.textContent.trim() === "Trishita Metya") sp.textContent = Trishita;
       });
     }
     if(github){
